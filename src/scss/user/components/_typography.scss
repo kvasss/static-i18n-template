@@ -1,0 +1,161 @@
+@import '../variables';
+
+$font-family-base: 'dejavusans', sans-serif;
+$font-size-base:            16px;
+$font-weight-base:          400;
+$font-weight-bold:          700;
+$font-weight-black:         900;
+$font-size-section-heading: 3rem;
+$h1-font-size:              5.625rem;
+$h2-font-size:              3.375rem;
+$h3-font-size:              2rem;
+$h4-font-size:              1.875rem;
+$h5-font-size:              1.5rem;
+$h6-font-size:              1.25rem;
+$p-font-size:               1.25rem;
+$card-title-font-size:      1.625rem;
+
+body {
+  font-family:  $font-family-base;
+  font-size:    $font-size-base;
+  font-weight:  $font-weight-base;
+  color:        $dark-violet;
+}
+
+h1,
+.h1 {
+  font-family:  $font-family-base;
+  font-size:    $h1-font-size;
+  font-weight:  $font-weight-bold;
+  line-height:  105%;
+  margin-bottom: 1.563rem;
+
+  @media (max-width: 1200px) {
+    font-size: 4.25rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 3.25rem;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 2.25rem;
+  }
+}
+
+h2,
+.h2 {
+  font-family:  $font-family-base;
+  font-size:    $h2-font-size;
+  font-weight:  $font-weight-bold;
+
+  @media (max-width: 1440px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 1200px) {
+    font-size: 2.25rem;
+  }
+}
+
+h3,
+.h3 {
+  font-family: $font-family-base;
+  font-size: $h3-font-size;
+  font-weight: $font-weight-bold;
+
+  @media (max-width: 1440px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 1200px) {
+    font-size: 2.5rem;
+  }
+  @media (max-width: 992px) {
+    font-size: 1.875rem;
+  }
+}
+
+h4,
+.h4 {
+  font-family: $font-family-base;
+  font-size: $h4-font-size;
+  font-weight: $font-weight-bold;
+  
+}
+
+h5,
+.h5 {
+  font-family: $font-family-base;
+  font-size: $h5-font-size;
+  font-weight: $font-weight-bold;
+}
+
+h6,
+.h6 {
+  font-family: $font-family-base;
+  font-size: $h6-font-size;
+  font-weight: $font-weight-bold;
+}
+
+p {
+  font-family: $font-family-base;
+  font-size: $p-font-size;
+  font-weight: $font-weight-base;
+  line-height: 140%;
+
+  @media (max-width: 1200px) {
+    font-size: 0.95rem;
+  }
+}
+
+.navbar-brand {
+  a {
+    font-size: 18px;
+    font-weight: 700;
+
+    span {
+      color: $violet;
+    }
+  }
+}
+
+.font-lg {
+  font-size: 6.875rem;
+
+  @media (max-width: 1440px) {
+    font-size: 5.875rem;
+  }
+  @media (max-width: 1200px) {
+    font-size: 4.875rem;
+  }
+  @media (max-width: 991px) {
+    font-size: 3.25rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+// .regular {
+//   font-weight: 400 !important;
+// }
+
+// .medium {
+//   font-weight: 400 !important;
+// }
+
+// .semibold {
+//   font-weight: 600 !important;
+// }
+
+// b,
+// strong,
+// .bold {
+//   font-weight: 700 !important;
+// }
+
+// .heavy {
+//   font-weight: 800 !important;
+// }
+
+// .black {
+//   font-weight: 900 !important;
+// }

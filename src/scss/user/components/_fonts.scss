@@ -1,0 +1,63 @@
+@import '../../../fonts/icons/style.scss';
+
+@font-face {
+  font-family: 'mission-ge';
+  src:
+    url('./../fonts/icons/mission-ge/mission-ge.ttf') format('truetype'),
+    url('./../fonts/icons/mission-ge/mission-ge.woff') format('woff'),
+    url('./../fonts/icons/mission-ge/mission-ge.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'dejavusans';
+  src:  local('DejaVu Sans ExtraLight'), 
+        local('DejaVuSans-ExtraLight'), 
+        url('./../fonts/dejavusans/dejavusansextralight.woff2') format('woff2'), 
+        url('./../fonts/dejavusans/dejavusansextralight.woff') format('woff'), 
+        url('./../fonts/dejavusans/dejavusansextralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'dejavusans';
+  src:  local('DejaVu Sans'), 
+        local('DejaVuSans'), 
+        url('./../fonts/dejavusans/dejavusans.woff2') format('woff2'), 
+        url('./../fonts/dejavusans/dejavusans.woff') format('woff'), 
+        url('./../fonts/dejavusans/dejavusans.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+// @font-face {
+//   font-family: 'dejavusans';
+//   src:  local('DejaVu Sans Oblique'), 
+//         local('DejaVuSans-Oblique'), 
+//         url('./../fonts/dejavusans/dejavusansoblique.woff2') format('woff2'), 
+//         url('./../fonts/dejavusans/dejavusansoblique.woff') format('woff'), 
+//         url('./../fonts/dejavusans/dejavusansoblique.ttf') format('truetype');
+//   font-weight: 400;
+//   font-style: italic;
+// }
+@font-face {
+  font-family: 'dejavusans';
+  src:  local('DejaVu Sans Bold'), 
+        local('DejaVuSans-Bold'), 
+        url('./../fonts/dejavusans/dejavusansbold.woff2') format('woff2'), 
+        url('./../fonts/dejavusans/dejavusansbold.woff') format('woff'), 
+        url('./../fonts/dejavusans/dejavusansbold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+// @font-face {
+//   font-family: 'dejavusans';
+//   src:  local('DejaVu Sans Bold Oblique'), 
+//         local('DejaVuSans-BoldOblique'), 
+//         url('./../fonts/dejavusans/dejavusansboldoblique.woff2') format('woff2'), 
+//         url('./../fonts/dejavusans/dejavusansboldoblique.woff') format('woff'), 
+//         url('./../fonts/dejavusans/dejavusansboldoblique.ttf') format('truetype');
+//   font-weight: 700;
+//   font-style: italic;
+// }

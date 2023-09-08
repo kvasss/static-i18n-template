@@ -1,0 +1,44 @@
+{
+  "dir": "ltr",
+  
+  "logo": {
+    "link": "mission.ge",
+    "text": "mission<span>.</span>ge"
+  },
+  
+  "menu": {
+    "locale": "ru_RU",
+    "lang": "Rus",
+    "links_base": "/",
+    "link1_text": "Ссылка 1",
+    "link1": "#",
+    "link2_text": "Ссылка 2",
+    "link2": "#",
+    "link3_text": "Ссылка 3",
+    "link3": "#",
+    "login_text": "Кнопка",
+    "login_link": "#"
+  },
+
+  "index": {
+    "description": "index description",
+    "keywords": "index keywords",
+    "title": "index title",
+    "header": {
+      "title": "Нужно выполнить работу?"
+    }
+
+  },
+
+  "footer": {
+    "copyright": "RU Footer copyright"
+  },
+
+  "cookies": {
+    "cookies-warning": "cookies warning",
+    "cookies-text": "cookies text",
+    "cookies-allow": "Принять",
+    "cookies-reject": "Отклонить",
+    "cookies-close": "Закрыть"
+  }
+}

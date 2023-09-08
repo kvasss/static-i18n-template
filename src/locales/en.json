@@ -1,0 +1,44 @@
+{
+  "dir": "ltr",
+
+  "logo": {
+    "link": "mission.ge",
+    "text": "mission<span>.</span>ge"
+  },
+
+  "menu": {
+    "locale": "en_US",
+    "lang": "Eng",
+    "links_base": "/en",
+    "link1_text": "Link1 text",
+    "link1": "#",
+    "link2_text": "Link2 text",
+    "link2": "#",
+    "link3_text": "Link3 text",
+    "link3": "#",
+    "login_text": "Sign up",
+    "login_link": "#"
+  },
+
+  "index": {
+    "description": "index description",
+    "keywords": "index keywords",
+    "title": "index title",
+    "header": {
+      "title": "Index header title"
+    }
+
+  },
+
+  "footer": {
+    "copyright": "EN Footer copyright"
+  },
+  
+  "cookies": {
+    "cookies-warning": "cookies warning",
+    "cookies-text": "cookies text",
+    "cookies-allow": "Принять",
+    "cookies-reject": "Отклонить",
+    "cookies-close": "Закрыть"
+  }
+}

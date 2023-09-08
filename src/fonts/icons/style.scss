@@ -1,0 +1,50 @@
+@import "variables";
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mission-ge' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ------------------------- //
+
+.i-chat-a {
+  &:before {
+    content: $i-chat-a; 
+  }
+}
+.i-chat-b {
+  &:before {
+    content: $i-chat-b; 
+  }
+}
+.i-facebook {
+  &:before {
+    content: $i-Facebook; 
+  }
+}
+.i-instagram {
+  &:before {
+    content: $i-Instagram; 
+  }
+}
+.i-mail {
+  &:before {
+    content: $i-mail; 
+  }
+}
+.i-chevron-down {
+  &:before {
+    content: $i-chevron-down; 
+  }
+}
+

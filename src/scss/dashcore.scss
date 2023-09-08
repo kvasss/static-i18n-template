@@ -1,0 +1,118 @@
+
+// Bootstrap core styles
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import "~bootstrap/scss/variables-dark";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$violet:        #a37fd1;
+$violet-1:      #bf96f5;
+$violet-2:      #d3b6fa;
+$violet-3:      #ddc3ff;
+$violet-4:      #e4cdff;
+$violet-5:      #e9d8ff;
+$violet-6:      #EDE0FF;
+$light-violet:  #d1c0e8;
+$dark-violet:   #361068;
+
+$danger:        #ff4136;
+$yellow:        #ffe74c;
+$light-orange:  #ffae64;
+$orange:        #ff9533;
+$peach:         #ff9d8f;
+$blue:          #90abfa;
+$bg-blue:       #d4dfff;
+$light:         #edf3ff;
+$green:         #1dbe71;
+
+$theme-colors: (
+  "primary":      $dark-violet,
+  "danger":       $danger,
+  "info":         $bg-blue
+);
+$custom-colors: (
+  "violet":       $violet,
+  "violet-1":     $violet-1,
+  "violet-2":     $violet-2,
+  "violet-3":     $violet-3,
+  "violet-4":     $violet-4,
+  "violet-5":     $violet-5,
+  "violet-6":     $violet-6,
+  "light-violet": $light-violet,
+  "dark-violet":  $dark-violet,
+
+  "yellow":       $yellow,
+  "light-orange": $light-orange,
+  "orange":       $orange,
+  "peach":        $peach,
+  "blue":         $blue,
+  "bg-blue":      $bg-blue,
+  "light":        $light,
+  "green":        $green,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+// $theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+@import '~bootstrap/scss/maps';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/utilities';
+
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/type';
+@import "~bootstrap/scss/images";
+
+@import '~bootstrap/scss/containers';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/helpers';
+@import '~bootstrap/scss/utilities/api';
+
+@import '~bootstrap/scss/nav';
+@import '~bootstrap/scss/navbar';
+@import '~bootstrap/scss/buttons';
+@import '~bootstrap/scss/transitions';
+@import '~bootstrap/scss/dropdown';
+@import '~bootstrap/scss/button-group';
+@import '~bootstrap/scss/forms';
+
+$utilities: () !default;
+$utilities: map-merge(
+  (
+    'display': (
+      responsive: true,
+      print: true,
+      property: display,
+      class: d,
+      values: block flex inline-flex none,
+    ),
+  ),
+  $utilities
+);
+
+
+// User custom styles
+@import './user/variables';
+@import './user/components/fonts';
+@import './user/components/typography';
+@import './user/components/navbar';
+@import './user/components/footer';
+@import './user/components/cookies';
+@import './user/components/forms';
+@import './user/styles';

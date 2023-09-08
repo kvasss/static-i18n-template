@@ -1,0 +1,18 @@
+@import '../user/components/typography';
+@import '../user/components/icons';
+@import '../user/components/navbar';
+@import '../user/components/buttons';
+
+.overflow,
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.section {
+  border: 1px dashed gray;
+  position: relative;
+}
+.scene-wrapper {
+  position: relative;
+}
+
