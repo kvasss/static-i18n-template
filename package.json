@@ -61,6 +61,7 @@
     "webpack-merge": "^5.9.0"
   },
   "dependencies": {
+    "bootstrap": "^5.3.1",
     "dotenv": "^16.3.1",
     "gsap": "^3.12.2"
   }
